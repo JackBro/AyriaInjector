@@ -52,7 +52,7 @@ int wmain(int argc, wchar_t **argv)
             Bootstrapmodule = L"NativeBootstrap64.dll";
 
         // Map it into the process.
-        Process.mmap().MapImage(Bootstrapmodule);
+        Process.mmap().MapImage(Bootstrapmodule, blackbone::eLoadFlags::CreateLdrRef);
     }
     else
     {
