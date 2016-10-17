@@ -1,6 +1,6 @@
 /*
     Initial author: (https://github.com/)Convery for Ayria.se
-    License: GPL 2.0
+    License: MIT
     Started: 2016-10-6
     Notes:
         This file declares global defines for standard functions.
